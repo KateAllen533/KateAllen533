@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @KateAllen533
-- 👀 I’m interested in Data Engineering Career Paath
+- 👀 I’m interested in 
 - Half nerdy
 - 🪂🪂🪂🪂🪂🪂🪂🪂🪂
 --->
