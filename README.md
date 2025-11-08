@@ -4,4 +4,4 @@
 --->
 https://kateallen533.github.io/Research-Diabetes/
 test my project:
-https://universal-diagnotistics-tool.netlify.app/
+[https://universal-diagnotistics-tool.netlify.app/](https://ai-vehicle-diagnostic.netlify.app/)
