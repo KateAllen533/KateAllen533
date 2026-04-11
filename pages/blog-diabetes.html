@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Driven Diabetes Prediction - NovarisAI Blog</title>
+    <meta name="description" content="How machine learning models identify early markers of Type 2 diabetes with 94% accuracy for preventive care.">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .article-body { max-width: 720px; margin: 0 auto; padding: 80px 24px 120px; }
+        .article-body h2 { font-size: 24px; font-weight: 700; color: #fff; margin: 40px 0 16px; }
+        .article-body h3 { font-size: 20px; font-weight: 600; color: #fff; margin: 32px 0 12px; }
+        .article-body p { font-size: 16px; color: var(--color-text-secondary); line-height: 1.8; margin-bottom: 20px; }
+        .article-body ul, .article-body ol { padding-left: 24px; margin-bottom: 20px; color: var(--color-text-secondary); line-height: 2; }
+        .article-meta { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; flex-wrap: wrap; }
+        .article-back { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; color: var(--color-primary-light); margin-bottom: 32px; }
+        .article-back:hover { color: var(--color-accent); }
+        blockquote { border-left: 3px solid var(--color-primary); padding: 16px 24px; margin: 24px 0; background: rgba(108, 92, 231, 0.05); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+        blockquote p { margin-bottom: 0; font-style: italic; }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-logo"><span class="logo-icon">N</span><span class="logo-text">Novaris<span class="logo-accent">AI</span></span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="blog-list.html" class="nav-link active">Blog</a></li>
+                <li><a href="contact.html" class="nav-link nav-cta">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: 45vh; padding: 140px 0 60px;">
+        <div class="hero-bg"><div class="hero-grid"></div><div class="hero-glow hero-glow-1"></div></div>
+        <div class="container hero-content">
+            <div class="blog-meta" style="justify-content: center; margin-bottom: 20px;"><span class="blog-tag">Research</span><span class="blog-date" style="color: var(--color-text-muted);">NovarisAI Research Team</span></div>
+            <h1 class="hero-title" style="font-size: clamp(28px, 4vw, 48px);">AI-Driven Diabetes Prediction:<br><span class="gradient-text">A New Approach to Early Detection</span></h1>
+        </div>
+    </section>
+
+    <div class="article-body">
+        <a href="blog-list.html" class="article-back">&larr; Back to Blog</a>
+
+        <h2>The Challenge of Early Detection</h2>
+        <p>Type 2 diabetes affects over 460 million people worldwide, with the number projected to rise to 700 million by 2045. One of the greatest challenges in combating this epidemic is early detection -- by the time most patients receive a diagnosis, significant metabolic damage has already occurred.</p>
+        <p>Traditional screening methods rely on fasting blood glucose and HbA1c tests, which often only flag the disease after it has progressed to a clinically significant stage. Our research team set out to change this by leveraging machine learning to identify subtle pre-diabetic patterns that human clinicians might miss.</p>
+
+        <h2>Our Approach</h2>
+        <p>We developed a multi-modal machine learning model that integrates data from multiple sources:</p>
+        <ul>
+            <li><strong>Electronic Health Records (EHR)</strong> -- longitudinal patient data spanning 5+ years</li>
+            <li><strong>Laboratory results</strong> -- including metabolic panels, lipid profiles, and inflammatory markers</li>
+            <li><strong>Demographic data</strong> -- age, BMI, family history, and lifestyle factors</li>
+            <li><strong>Wearable device data</strong> -- continuous glucose monitoring, activity levels, and sleep patterns</li>
+        </ul>
+        <p>The model was trained on a de-identified dataset of over 2.3 million patient records from 14 healthcare systems, with validated outcomes tracked over a 10-year period.</p>
+
+        <h2>Key Findings</h2>
+
+        <h3>94% Prediction Accuracy</h3>
+        <p>Our model achieved a 94% accuracy rate in predicting the onset of Type 2 diabetes 6-18 months before conventional diagnostic criteria would be met. This represents a significant improvement over existing risk calculators, which typically achieve 70-80% accuracy.</p>
+
+        <blockquote>
+            <p>"The ability to identify at-risk patients months before traditional screening methods is a game-changer for preventive medicine. This gives us a window to intervene with lifestyle modifications before medication becomes necessary."</p>
+        </blockquote>
+
+        <h3>Novel Biomarker Patterns</h3>
+        <p>Perhaps most importantly, the model identified several previously underappreciated biomarker patterns that serve as early warning signals:</p>
+        <ol>
+            <li><strong>Micro-variations in fasting glucose</strong> -- subtle upward trends over 12-18 months that fall within "normal" ranges but indicate metabolic trajectory</li>
+            <li><strong>Inflammatory marker ratios</strong> -- specific combinations of CRP, IL-6, and TNF-alpha that precede insulin resistance</li>
+            <li><strong>Sleep-glucose correlations</strong> -- patterns in nocturnal glucose variability that predict daytime metabolic dysfunction</li>
+        </ol>
+
+        <h2>Clinical Implications</h2>
+        <p>The practical impact of this research is significant. By identifying at-risk patients earlier, healthcare providers can:</p>
+        <ul>
+            <li>Initiate lifestyle interventions (diet, exercise, stress management) during the most effective window</li>
+            <li>Reduce the need for pharmaceutical intervention by 35-40% in early-identified patients</li>
+            <li>Lower long-term healthcare costs associated with diabetes management and complications</li>
+            <li>Improve patient quality of life through proactive rather than reactive care</li>
+        </ul>
+
+        <h2>What's Next</h2>
+        <p>We are currently conducting a prospective validation study across 6 healthcare systems to confirm these findings in real-world clinical settings. Early results are promising, and we expect to publish the full study results later this year.</p>
+        <p>Our diabetes prediction model is being integrated into the NovarisAI diagnostic platform, making it available to healthcare organizations through our standard API. If you're interested in participating in the validation study or implementing the model in your practice, please <a href="contact.html" style="color: var(--color-primary-light);">contact our team</a>.</p>
+
+        <div style="margin-top: 48px; padding: 32px; background: var(--gradient-card); border: 1px solid var(--color-border); border-radius: var(--radius-md);">
+            <h3 style="margin-top: 0;">Stay Updated on Our Research</h3>
+            <p style="margin-bottom: 16px;">Get notified when we publish new research findings and product updates.</p>
+            <a href="contact.html" class="btn btn-primary">Subscribe to Updates</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><a href="../index.html" class="nav-logo"><span class="logo-icon">N</span><span class="logo-text">Novaris<span class="logo-accent">AI</span></span></a><p>Empowering healthcare through intelligent AI solutions.</p></div>
+                <div class="footer-links"><h4>Solutions</h4><ul><li><a href="services.html">Diagnostic AI</a></li><li><a href="services.html">Research Platform</a></li></ul></div>
+                <div class="footer-links"><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="blog-list.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+                <div class="footer-links"><h4>Legal</h4><ul><li><a href="privacy.html">Privacy</a></li><li><a href="disclaimer.html">Disclaimer</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2024 NovarisAI. All rights reserved.</p></div>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

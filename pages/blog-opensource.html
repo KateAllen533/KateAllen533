@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open-Source Healthcare AI - NovarisAI Blog</title>
+    <meta name="description" content="Why NovarisAI believes open-source development is essential for trustworthy medical AI.">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .article-body { max-width: 720px; margin: 0 auto; padding: 80px 24px 120px; }
+        .article-body h2 { font-size: 24px; font-weight: 700; color: #fff; margin: 40px 0 16px; }
+        .article-body p { font-size: 16px; color: var(--color-text-secondary); line-height: 1.8; margin-bottom: 20px; }
+        .article-body ul { padding-left: 24px; margin-bottom: 20px; color: var(--color-text-secondary); line-height: 2; }
+        .article-back { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; color: var(--color-primary-light); margin-bottom: 32px; }
+        .article-back:hover { color: var(--color-accent); }
+        blockquote { border-left: 3px solid var(--color-accent); padding: 16px 24px; margin: 24px 0; background: rgba(0, 206, 201, 0.04); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+        blockquote p { margin-bottom: 0; font-style: italic; }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-logo"><span class="logo-icon">N</span><span class="logo-text">Novaris<span class="logo-accent">AI</span></span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="blog-list.html" class="nav-link active">Blog</a></li>
+                <li><a href="contact.html" class="nav-link nav-cta">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: 45vh; padding: 140px 0 60px;">
+        <div class="hero-bg"><div class="hero-grid"></div><div class="hero-glow hero-glow-2"></div></div>
+        <div class="container hero-content">
+            <div class="blog-meta" style="justify-content: center; margin-bottom: 20px;"><span class="blog-tag">Open Source</span><span class="blog-date" style="color: var(--color-text-muted);">NovarisAI Engineering Team</span></div>
+            <h1 class="hero-title" style="font-size: clamp(28px, 4vw, 48px);">Our Commitment to<br><span class="gradient-text">Open-Source Healthcare AI</span></h1>
+        </div>
+    </section>
+
+    <div class="article-body">
+        <a href="blog-list.html" class="article-back">&larr; Back to Blog</a>
+
+        <h2>Why Open Source Matters in Healthcare AI</h2>
+        <p>When lives are at stake, transparency isn't optional -- it's a moral imperative. At NovarisAI, we believe that the algorithms guiding clinical decisions should be open to scrutiny, validation, and improvement by the broader medical and scientific community.</p>
+        <p>Black-box AI models may achieve impressive benchmark scores, but they fall short when clinicians need to understand <em>why</em> a recommendation was made. Open-source development addresses this by making model architectures, training methodologies, and evaluation criteria available for peer review.</p>
+
+        <h2>Our Open-Source Contributions</h2>
+        <p>We have released several key components of our platform under permissive open-source licenses:</p>
+        <ul>
+            <li><strong>NovaDiag Core</strong> -- Our foundational diagnostic framework for medical image analysis, released under the Apache 2.0 license</li>
+            <li><strong>HealthBench</strong> -- A comprehensive benchmarking suite for evaluating healthcare AI models against standardized clinical datasets</li>
+            <li><strong>FHIR-ML Bridge</strong> -- Tools for converting HL7 FHIR resources into ML-ready formats while preserving data provenance</li>
+            <li><strong>ExplainMed</strong> -- An interpretability toolkit that generates human-readable explanations for model predictions</li>
+        </ul>
+
+        <blockquote>
+            <p>"Open-source healthcare AI isn't about giving away competitive advantage. It's about building a foundation of trust that the entire industry needs to move forward responsibly."</p>
+        </blockquote>
+
+        <h2>Building Trust Through Transparency</h2>
+        <p>Our open-source strategy serves several critical purposes:</p>
+        <ul>
+            <li><strong>Peer validation</strong> -- Independent researchers can verify our methodologies and reproduce our results</li>
+            <li><strong>Bias detection</strong> -- Community scrutiny helps identify and address potential biases in training data and model outputs</li>
+            <li><strong>Regulatory confidence</strong> -- Regulators can audit the complete decision-making pipeline, not just the outputs</li>
+            <li><strong>Collaborative improvement</strong> -- Contributions from diverse perspectives make the models more robust and generalizable</li>
+        </ul>
+
+        <h2>Community Growth</h2>
+        <p>Since launching our open-source initiative, we've seen remarkable community engagement: over 2,400 GitHub stars, 380 forks, and contributions from researchers at 45 institutions across 18 countries. Several academic papers have built upon our open-source tools, extending their capabilities into new clinical domains.</p>
+
+        <h2>Getting Involved</h2>
+        <p>We welcome contributions from developers, clinicians, and researchers. Whether you're fixing a bug, proposing a new feature, improving documentation, or validating models against your institutional data, every contribution strengthens healthcare AI for everyone.</p>
+        <p>Visit our GitHub organization to explore our repositories, review the contribution guidelines, and join the conversation. If you're a healthcare institution interested in partnering on open-source research, <a href="contact.html" style="color: var(--color-primary-light);">reach out to our team</a>.</p>
+
+        <div style="margin-top: 48px; padding: 32px; background: var(--gradient-card); border: 1px solid var(--color-border); border-radius: var(--radius-md);">
+            <h2 style="margin-top: 0; font-size: 20px;">Join Our Open-Source Community</h2>
+            <p style="margin-bottom: 16px;">Contribute to the future of transparent, trustworthy healthcare AI.</p>
+            <a href="contact.html" class="btn btn-primary">Get Involved</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><a href="../index.html" class="nav-logo"><span class="logo-icon">N</span><span class="logo-text">Novaris<span class="logo-accent">AI</span></span></a><p>Empowering healthcare through intelligent AI solutions.</p></div>
+                <div class="footer-links"><h4>Solutions</h4><ul><li><a href="services.html">Diagnostic AI</a></li><li><a href="services.html">Research Platform</a></li></ul></div>
+                <div class="footer-links"><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="blog-list.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+                <div class="footer-links"><h4>Legal</h4><ul><li><a href="privacy.html">Privacy</a></li><li><a href="disclaimer.html">Disclaimer</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2024 NovarisAI. All rights reserved.</p></div>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
