@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @KateAllen533
-- 👀 I’m interested in 
-- 🪂🪂🪂🪂🪂🪂🪂🪂🪂
---->
+### 👋 Hi, I’m @KateAllen533
+### 👀 I’m interested in Biotechnology Research
 https://kateallen533.github.io/Research-Diabetes/
-test my project:
-[https://universal-diagnotistics-tool.netlify.app/](https://ai-vehicle-diagnostic.netlify.app/)
+### 💥 Collaboration Opportunity ? 
+### ❓Inquiries:
+https://www.s-tecm.com/
+- 🏬 Search Global Technology Apps on Google Play Store!
